@@ -18,6 +18,7 @@ function App() {
       }}>
         <HomePage/>
       </div>
+      {/* Test Commit on new computer */}
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
       
     </>
