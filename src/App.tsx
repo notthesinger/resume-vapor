@@ -2,17 +2,17 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button';
+import NavBarVapor from './components/navbar/NavBarVapor';
+import Resume from './components/resume/sections/Resume';
 
 function App() {
   let buttonName: string = "Test"
   
   return (
-    <>
-      <Button 
-        variant="primary"
-        onClick={()=> alert('Test')}>{buttonName}
-      </Button>
-    </>
+    <div className={'app'} >
+      <NavBarVapor />
+      <Resume />
+    </div>
   );
 }
 
