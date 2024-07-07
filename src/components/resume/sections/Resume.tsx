@@ -1,7 +1,9 @@
+import { Button } from "react-bootstrap";
+
 export default function Resume(){
     return (
-        <>
-yyyy
-        </>
+        <Button>
+            Button test
+        </Button>
     )
 }
